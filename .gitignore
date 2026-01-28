@@ -22,7 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
+readme2.md
 # Environment variables 
 .env
 .env.local
