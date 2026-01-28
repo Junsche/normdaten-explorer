@@ -41,23 +41,31 @@ Follow these steps to set up the project locally.
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone [https://github.com/your-username/normdaten-explorer.git](https://github.com/your-username/normdaten-explorer.git)
    cd normdaten-explorer
-Install dependencies
+  
+2. **Install dependencies**
 
-Bash
-npm install
-# OR
-yarn install
-Start the development server
+   ```Bash
+    npm install
+    # OR
+    yarn install
+  
+3. **Start the development server**
 
-Bash
-npm run dev
-Open your browser and navigate to http://localhost:5173.
+   ```Bash
+    npm run dev
+  
+4. **Open your browser**
+  
+   ```bash
+    http://localhost:5173.
+  
 
-📂 Project Structure
-Plaintext
+### 📂 Project Structure
+  ```bash
 src/
 ├── api/            # API client and fetch logic (client.ts)
 ├── components/     # Reusable UI components
@@ -69,10 +77,12 @@ src/
 ├── types/          # TypeScript interfaces (NormData)
 ├── App.tsx         # Root component
 └── main.tsx        # Entry point
-⚙️ Configuration (Vite Template)
+  ```
+
+### ⚙️ Configuration (Vite Template)
 This project is initialized using the standard Vite + React + TypeScript template. Below is the default configuration info.
 
-React + TypeScript + Vite
+#### React + TypeScript + Vite
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
@@ -81,9 +91,10 @@ Currently, two official plugins are available:
 
 @vitejs/plugin-react-swc uses SWC for Fast Refresh
 
-ESLint Configuration
+#### ESLint Configuration
 If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
+```bash
 JavaScript
 export default defineConfig([
   globalIgnores(['dist']),
@@ -101,18 +112,20 @@ export default defineConfig([
     },
   },
 ])
-🤝 Contributing
+```
+
+### 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-Fork the Project
+1.Fork the Project
 
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
+2.Create your Feature Branch (git checkout -b feature/AmazingFeature)
 
-Commit your Changes (git commit -m 'Add some AmazingFeature')
+3.Commit your Changes (git commit -m 'Add some AmazingFeature')
 
-Push to the Branch (git push origin feature/AmazingFeature)
+4.Push to the Branch (git push origin feature/AmazingFeature)
 
-Open a Pull Request
+5.Open a Pull Request
 
-📄 License
+### 📄 License
 Distributed under the MIT License.
